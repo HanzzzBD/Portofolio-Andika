@@ -1,0 +1,509 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - complementary "Site" [ref=e4]:
+    - link "Andika Rasya Putra" [ref=e5] [cursor=pointer]:
+      - /url: "#home"
+      - generic [aria-hidden] [ref=e6]: A/R
+    - navigation "Primary" [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "01 Home" [ref=e11] [cursor=pointer]:
+            - /url: "#home"
+            - generic [ref=e12]: "01"
+            - generic [ref=e13]: Home
+        - listitem [ref=e15]:
+          - link "02 About" [ref=e16] [cursor=pointer]:
+            - /url: "#about"
+            - generic [ref=e17]: "02"
+            - generic [ref=e18]: About
+        - listitem [ref=e19]:
+          - link "03 Projects" [ref=e20] [cursor=pointer]:
+            - /url: "#projects"
+            - generic [ref=e21]: "03"
+            - generic [ref=e22]: Projects
+        - listitem [ref=e23]:
+          - link "04 Skills" [ref=e24] [cursor=pointer]:
+            - /url: "#skills"
+            - generic [ref=e25]: "04"
+            - generic [ref=e26]: Skills
+        - listitem [ref=e27]:
+          - link "05 Experience" [ref=e28] [cursor=pointer]:
+            - /url: "#experience"
+            - generic [ref=e29]: "05"
+            - generic [ref=e30]: Experience
+        - listitem [ref=e31]:
+          - link "06 Contact" [ref=e32] [cursor=pointer]:
+            - /url: "#contact"
+            - generic [ref=e33]: "06"
+            - generic [ref=e34]: Contact
+    - list [ref=e35]:
+      - listitem [ref=e36]:
+        - link "GitHub (opens in a new tab)" [ref=e37] [cursor=pointer]:
+          - /url: https://github.com/andikatra
+      - listitem [ref=e40]:
+        - link "LinkedIn (opens in a new tab)" [ref=e41] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/andika-rasya-putra-474425332/
+      - listitem [ref=e44]:
+        - link "Instagram (opens in a new tab)" [ref=e45] [cursor=pointer]:
+          - /url: https://www.instagram.com/rrsyaptraa/
+    - generic [ref=e50]:
+      - button "Switch to dark theme" [pressed] [ref=e51] [cursor=pointer]
+      - generic [ref=e59]: © 2026
+  - main [ref=e60]:
+    - region [ref=e61]:
+      - generic [ref=e62]:
+        - heading "Andika Rasya Putra" [level=1] [ref=e64]:
+          - generic [aria-hidden] [ref=e65]:
+            - generic [ref=e66]: A
+            - generic [ref=e67]: "n"
+            - generic [ref=e68]: d
+            - generic [ref=e69]: i
+            - generic [ref=e70]: k
+            - generic [ref=e71]: a
+          - generic [aria-hidden] [ref=e72]:
+            - generic [ref=e73]: R
+            - generic [ref=e74]: a
+            - generic [ref=e75]: s
+            - generic [ref=e76]: "y"
+            - generic [ref=e77]: a
+          - generic [aria-hidden] [ref=e78]:
+            - generic [ref=e79]: P
+            - generic [ref=e80]: u
+            - generic [ref=e81]: t
+            - generic [ref=e82]: r
+            - generic [ref=e83]: a
+        - figure "Fig. 01 Andika Rasya Putra" [ref=e84]:
+          - img "Portrait of Andika Rasya Putra in a white shirt and black tie" [ref=e87]
+    - region "About" [ref=e88]:
+      - generic [ref=e90]:
+        - generic [ref=e91]: (02)
+        - heading "About" [level=2] [ref=e92]
+        - generic [ref=e93]: Who I am
+      - generic [ref=e94]:
+        - paragraph [ref=e96]:
+          - text: I build for the web —
+          - emphasis [ref=e97]: and I learn fastest when there is a deadline, a team and a real audience on the other side of the screen.
+        - generic [ref=e98]:
+          - paragraph [ref=e99]: "I am a software engineering (RPL) student at SMK Negeri 4 Bandung. Most of what I know about web development comes from building things people actually use: a school landing page for a competition, pages for my school’s digital portal, and the class projects in between."
+          - paragraph [ref=e100]: Competitions have shaped how I work. Two of them ended with a Juara 3 in Web Development, and every one of them taught me to split a problem into pieces a team can ship together.
+          - generic [ref=e101]:
+            - heading "Education" [level=3] [ref=e102]
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - generic [ref=e105]: 2023 — 2027
+                - generic [ref=e106]: SMK Negeri 4 Bandung
+                - generic [ref=e107]: Rekayasa Perangkat Lunak (Software Engineering)
+              - listitem [ref=e108]:
+                - generic [ref=e109]: 2021 — 2023
+                - generic [ref=e110]: SMP Negeri 1 Cibiuk
+                - generic [ref=e111]: Junior high school
+      - generic [ref=e112]:
+        - heading "How I work" [level=3] [ref=e113]
+        - list [ref=e114]:
+          - listitem [ref=e115]:
+            - generic [ref=e116]: "01"
+            - heading "Ship, then refine" [level=4] [ref=e117]
+            - paragraph [ref=e118]: Get a working page in front of people early, then fix what they actually trip over.
+          - listitem [ref=e119]:
+            - generic [ref=e120]: "02"
+            - heading "Work in the open" [level=4] [ref=e121]
+            - paragraph [ref=e122]: Branches, pull requests and small commits — so teammates can see and build on the work.
+          - listitem [ref=e123]:
+            - generic [ref=e124]: "03"
+            - heading "Own a slice" [level=4] [ref=e125]
+            - paragraph [ref=e126]: Take one part end-to-end, from layout to content, and make it solid.
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Organisation & beyond" [level=3] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - generic [ref=e132]: ORBIT — Treasurer
+              - generic [ref=e133]: Manages the finances and cash administration of the extracurricular.
+            - listitem [ref=e134]:
+              - generic [ref=e135]: ORBIT — Management Division
+              - generic [ref=e136]: Helps plan and run the extracurricular’s work programs.
+            - listitem [ref=e137]:
+              - generic [ref=e138]: Business Plan — Finalist
+              - generic [ref=e139]: Reached the finals of a business plan competition.
+            - listitem [ref=e140]:
+              - generic [ref=e141]: Thai Boxing Bandung — Member
+              - generic [ref=e142]: "Off the keyboard: training with discipline and consistency."
+        - generic [ref=e143]:
+          - heading "Where I’m heading" [level=3] [ref=e144]
+          - paragraph [ref=e145]: "Next: going deeper into modern frontend — React, motion and interface craft — and growing into a developer teams can rely on."
+    - region "Selected Projects" [ref=e146]:
+      - generic [ref=e148]:
+        - generic [ref=e149]: (03)
+        - heading "Selected Projects" [level=2] [ref=e150]
+        - generic [ref=e151]: 2 featured
+      - generic [ref=e152]:
+        - article [ref=e153]:
+          - generic [ref=e154]:
+            - generic [aria-hidden] [ref=e155]: "01"
+            - generic [ref=e156]:
+              - paragraph [ref=e157]: Innoventure · UNIKOM · 2025
+              - heading "SMKN 4 Bandung — Landing Page" [level=3] [ref=e158]
+              - paragraph [ref=e159]: Juara 3 · Web Development
+          - figure [ref=e163]:
+            - 'img "Hero of the SMKN 4 Bandung landing page: “Selamat Datang di SMKN 4 Bandung” over a video still of the school entrance" [ref=e165]'
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - term [ref=e169]: Role
+                - definition [ref=e170]: Frontend developer · team entry
+              - generic [ref=e171]:
+                - term [ref=e172]: Stack
+                - definition [ref=e173]:
+                  - list [ref=e174]:
+                    - listitem [ref=e175]: HTML
+                    - listitem [ref=e176]: CSS
+                    - listitem [ref=e177]: JavaScript
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - heading "Overview" [level=4] [ref=e180]
+                - paragraph [ref=e181]: "A single-page school profile built as a team entry for the Innoventure competition at UNIKOM: video hero, school story, programs, facilities, a Google Street View virtual tour and a registration call-to-action."
+              - generic [ref=e182]:
+                - heading "Problem" [level=4] [ref=e183]
+                - paragraph [ref=e184]: Prospective students and parents need one place to understand what the school offers — its majors, facilities and achievements — before they visit or register.
+              - generic [ref=e185]:
+                - heading "What I built" [level=4] [ref=e186]
+                - list [ref=e187]:
+                  - listitem [ref=e188]: Rebuilt the navigation bar and fixed its scroll behaviour
+                  - listitem [ref=e189]: Added the parallax treatment and the achievements marquee
+                  - listitem [ref=e190]: Replaced flat facility backgrounds with real photography
+                  - listitem [ref=e191]: Built and repaired the “Jelajahi Sekolah” virtual-tour section
+              - list [ref=e192]:
+                - listitem [ref=e193]:
+                  - link "Repository (opens in a new tab)" [ref=e194] [cursor=pointer]:
+                    - /url: https://github.com/HanzzzBD/Lomba-Unikom-Innoventure-
+                    - generic [ref=e197]: Repository
+                    - generic [ref=e202]: (opens in a new tab)
+                - listitem [ref=e203]:
+                  - link "Andika’s fork (opens in a new tab)" [ref=e204] [cursor=pointer]:
+                    - /url: https://github.com/andikatra/Lomba-Unikom-Innoventure-
+                    - generic [ref=e207]: Andika’s fork
+                    - generic [ref=e212]: (opens in a new tab)
+              - paragraph [ref=e213]: The competition deployment is no longer online; screenshots are rendered from the repository source.
+          - generic [ref=e214]:
+            - figure "Keunggulan & Prestasi section" [ref=e215]:
+              - img "Keunggulan & Prestasi section with scrolling achievement cards" [ref=e217]
+            - figure "Fasilitas Unggulan section" [ref=e219]:
+              - img "Fasilitas Unggulan section with photo cards of practice rooms, classrooms and library" [ref=e221]
+        - article [ref=e223]:
+          - generic [ref=e224]:
+            - generic [aria-hidden] [ref=e225]: "02"
+            - generic [ref=e226]:
+              - paragraph [ref=e227]: School platform · team project · 2026
+              - heading "SMKN 4 Bandung — Digital Portal" [level=3] [ref=e228]
+          - figure [ref=e229]:
+            - 'img "SMKN 4 Bandung portal: navigation bar and a horizontal gallery of school activity photos" [ref=e231]'
+          - generic [ref=e232]:
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - term [ref=e235]: Role
+                - definition [ref=e236]: Repository owner · frontend contributor
+              - generic [ref=e237]:
+                - term [ref=e238]: Stack
+                - definition [ref=e239]:
+                  - list [ref=e240]:
+                    - listitem [ref=e241]: React
+                    - listitem [ref=e242]: Vite
+                    - listitem [ref=e243]: Tailwind CSS
+                    - listitem [ref=e244]: GSAP
+                    - listitem [ref=e245]: Express
+                    - listitem [ref=e246]: Prisma
+                    - listitem [ref=e247]: PostgreSQL
+                    - listitem [ref=e248]: Docker
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - heading "Overview" [level=4] [ref=e251]
+                - paragraph [ref=e252]: "The school’s digital portal: public pages for profile, activities, extracurriculars, career centre (BKK), MBG and admissions (SPMB), backed by a REST API with a CMS and an AI chatbot. Deployed with Docker images built in CI."
+              - generic [ref=e253]:
+                - heading "Problem" [level=4] [ref=e254]
+                - paragraph [ref=e255]: School information was scattered. The portal gives students, parents and partners one maintained source — with content staff can update through a CMS instead of editing code.
+              - generic [ref=e256]:
+                - heading "What I built" [level=4] [ref=e257]
+                - list [ref=e258]:
+                  - listitem [ref=e259]: Created the repository and scaffolded the React + Vite frontend
+                  - listitem [ref=e260]: Built every Habituasi page — hero, introduction, day-by-day sections and image slider
+                  - listitem [ref=e261]: Adjusted the BKK and extracurricular pages
+                  - listitem [ref=e262]: Entered majors, MBG and industry-partner data
+              - paragraph [ref=e263]: Private repository
+              - paragraph [ref=e267]: Built with a team; the backend, CMS and CI/CD were led by a teammate. The repository is private.
+      - generic [ref=e268]:
+        - heading "Also on GitHub" [level=3] [ref=e269]
+        - list [ref=e270]:
+          - listitem [ref=e271]:
+            - link "tugas-restfull Class-data CRUD client in vanilla JavaScript that talks to a REST API with fetch. A class exercise. JavaScript · REST (opens in a new tab)" [ref=e272] [cursor=pointer]:
+              - /url: https://github.com/andikatra/tugas-restfull
+              - generic [ref=e273]: tugas-restfull
+              - generic [ref=e274]: Class-data CRUD client in vanilla JavaScript that talks to a REST API with fetch. A class exercise.
+              - generic [ref=e275]: JavaScript · REST
+              - generic [ref=e279]: (opens in a new tab)
+    - region "Skills & Tools" [ref=e280]:
+      - generic [ref=e282]:
+        - generic [ref=e283]: (04)
+        - heading "Skills & Tools" [level=2] [ref=e284]
+        - generic [ref=e285]: Backed by real work
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - heading "01 Languages" [level=3] [ref=e288]:
+            - generic [ref=e289]: "01"
+            - text: Languages
+          - list [ref=e290]:
+            - listitem [ref=e291]: JavaScript
+            - listitem [ref=e292]: HTML
+            - listitem [ref=e293]: CSS
+            - listitem [ref=e294]: PHP
+          - paragraph [ref=e295]:
+            - text: ↳
+            - generic [ref=e296]: "Evidence:"
+            - text: Innoventure site · class projects · Laravel work
+        - generic [ref=e297]:
+          - heading "02 Frontend" [level=3] [ref=e298]:
+            - generic [ref=e299]: "02"
+            - text: Frontend
+          - list [ref=e300]:
+            - listitem [ref=e301]: React
+            - listitem [ref=e302]: Vite
+            - listitem [ref=e303]: Tailwind CSS
+            - listitem [ref=e304]: Responsive layout
+          - paragraph [ref=e305]:
+            - text: ↳
+            - generic [ref=e306]: "Evidence:"
+            - text: SMKN 4 Bandung portal frontend · CV
+        - generic [ref=e307]:
+          - heading "03 Backend" [level=3] [ref=e308]:
+            - generic [ref=e309]: "03"
+            - text: Backend
+          - list [ref=e310]:
+            - listitem [ref=e311]: Laravel
+            - listitem [ref=e312]: REST API integration
+          - paragraph [ref=e313]:
+            - text: ↳
+            - generic [ref=e314]: "Evidence:"
+            - text: CV · tugas-restfull (fetch-based CRUD client)
+        - generic [ref=e315]:
+          - heading "04 Tools & Workflow" [level=3] [ref=e316]:
+            - generic [ref=e317]: "04"
+            - text: Tools & Workflow
+          - list [ref=e318]:
+            - listitem [ref=e319]: Git
+            - listitem [ref=e320]: GitHub
+            - listitem [ref=e321]: Pull requests
+            - listitem [ref=e322]: Laragon
+            - listitem [ref=e323]: Figma (basic)
+          - paragraph [ref=e324]:
+            - text: ↳
+            - generic [ref=e325]: "Evidence:"
+            - text: Public GitHub repositories · team pull-request workflow
+      - generic [ref=e326]:
+        - generic [ref=e327]: Also
+        - paragraph [ref=e328]: Communication / Teamwork / Time management
+    - region "Experience & Activities" [ref=e329]:
+      - generic [ref=e331]:
+        - generic [ref=e332]: (05)
+        - heading "Experience & Activities" [level=2] [ref=e333]
+        - generic [ref=e334]: 2024 — 2026
+      - list [ref=e337]:
+        - listitem [ref=e338]:
+          - generic [ref=e340]:
+            - generic [ref=e341]: Sep — Oct 2026
+            - generic [ref=e342]: Development
+          - generic [ref=e343]:
+            - heading "SMKN 4 Bandung Digital Portal" [level=3] [ref=e344]
+            - paragraph [ref=e345]: Team project · GitHub
+            - paragraph [ref=e346]: "Repository owner and frontend contributor: project scaffold, Habituasi pages, content data."
+        - listitem [ref=e347]:
+          - generic [ref=e349]:
+            - generic [ref=e350]: Aug 2026
+            - generic [ref=e351]: Training
+          - generic [ref=e352]:
+            - heading "Fundamental of Assistant Web Developer" [level=3] [ref=e353]
+            - paragraph [ref=e354]: Digital Talent Academy · BLSDM Komdigi
+            - paragraph [ref=e355]: Digital Talent Scholarship 2026, VBL track at SMK Negeri 4 Bandung — 11.5 training hours.
+        - listitem [ref=e356]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: May 2026
+            - generic [ref=e360]: Award
+          - generic [ref=e361]:
+            - heading "Technova 2026 — Juara 3 Web Development" [level=3] [ref=e362]
+            - paragraph [ref=e363]: HIMA TEKKOM & HIMARPL · Universitas Pendidikan Indonesia
+            - paragraph [ref=e364]: Competed as Tim Orbit A under the theme “Beyond The Frontier of Innovation”.
+        - listitem [ref=e365]:
+          - generic [ref=e367]:
+            - generic [ref=e368]: Oct — Dec 2025
+            - generic [ref=e369]: Competition
+          - generic [ref=e370]:
+            - heading "Dinamik 20 — Competitive Programming" [level=3] [ref=e371]
+            - paragraph [ref=e372]: BEM KEMAKOM · Universitas Pendidikan Indonesia
+            - paragraph [ref=e373]: "Participant, Dinamik Competition: “The Collaboration Edge: Leading Innovation in the Digital Era”."
+        - listitem [ref=e374]:
+          - generic [ref=e376]:
+            - generic [ref=e377]: "2025"
+            - generic [ref=e378]: Award
+          - generic [ref=e379]:
+            - heading "Innoventure — Juara 3 Web Development" [level=3] [ref=e380]
+            - paragraph [ref=e381]: UNIKOM
+            - paragraph [ref=e382]: Team website for SMK Negeri 4 Bandung, built in August 2025; my commits covered navigation, parallax, the marquee and facilities.
+        - listitem [ref=e383]:
+          - generic [ref=e385]:
+            - generic [ref=e386]: Nov 2024
+            - generic [ref=e387]: Competition
+          - generic [ref=e388]:
+            - heading "Bebras Challenge" [level=3] [ref=e389]
+            - paragraph [ref=e390]: Bebras Indonesia · Biro UNIKOM
+            - paragraph [ref=e391]: Participant, Penegak category — computational thinking challenge.
+    - region "Certificates & Achievements" [ref=e392]:
+      - generic [ref=e394]:
+        - generic [ref=e395]: (06)
+        - heading "Certificates & Achievements" [level=2] [ref=e396]
+        - generic [ref=e397]: 5 records
+      - group "Filter certificates" [ref=e398]:
+        - button "All" [pressed] [ref=e399] [cursor=pointer]
+        - button "Award" [ref=e401] [cursor=pointer]
+        - button "Training" [ref=e402] [cursor=pointer]
+        - button "Participation" [ref=e403] [cursor=pointer]
+      - list [ref=e404]:
+        - listitem [ref=e405]:
+          - button "View Juara 3 Web Development, Technova 2026" [ref=e406] [cursor=pointer]:
+            - generic [ref=e414]:
+              - generic [ref=e415]: Award · 30 May 2026
+              - generic [ref=e416]: Juara 3 Web Development
+              - generic [ref=e417]: Technova 2026
+              - generic [ref=e418]: HIMA TEKKOM & HIMARPL, Universitas Pendidikan Indonesia
+        - listitem [ref=e419]:
+          - button "View Juara 3 Web Development, Innoventure · UNIKOM" [ref=e420] [cursor=pointer]:
+            - generic [ref=e428]:
+              - generic [ref=e429]: Award
+              - generic [ref=e430]: Juara 3 Web Development
+              - generic [ref=e431]: Innoventure · UNIKOM
+              - generic [ref=e432]: Universitas Komputer Indonesia
+        - listitem [ref=e433]:
+          - button "View Fundamental of Assistant Web Developer, Digital Talent Scholarship 2026" [ref=e434] [cursor=pointer]:
+            - generic [ref=e442]:
+              - generic [ref=e443]: Training · 3–14 Aug 2026
+              - generic [ref=e444]: Fundamental of Assistant Web Developer
+              - generic [ref=e445]: Digital Talent Scholarship 2026
+              - generic [ref=e446]: Digital Talent Academy · BLSDM Komdigi
+        - listitem [ref=e447]:
+          - button "View Competitive Programming — Participant, Dinamik 20" [ref=e448] [cursor=pointer]:
+            - generic [ref=e456]:
+              - generic [ref=e457]: Participation · 20 Oct – 28 Dec 2025
+              - generic [ref=e458]: Competitive Programming — Participant
+              - generic [ref=e459]: Dinamik 20
+              - generic [ref=e460]: BEM KEMAKOM, Universitas Pendidikan Indonesia
+        - listitem [ref=e461]:
+          - button "View Bebras Challenge — Penegak, Pekan Bebras 2024" [ref=e462] [cursor=pointer]:
+            - generic [ref=e470]:
+              - generic [ref=e471]: Participation · 11–16 Nov 2024
+              - generic [ref=e472]: Bebras Challenge — Penegak
+              - generic [ref=e473]: Pekan Bebras 2024
+              - generic [ref=e474]: Bebras Indonesia · Biro UNIKOM
+    - region "Contact" [ref=e475]:
+      - generic [ref=e477]:
+        - generic [ref=e478]: (07)
+        - heading "Contact" [level=2] [ref=e479]
+        - generic [ref=e480]: Bandung · GMT+7
+      - paragraph [ref=e482]:
+        - text: Have a project, a team or an opportunity?
+        - emphasis [ref=e483]: Let’s talk.
+      - generic [ref=e484]:
+        - generic [ref=e485]:
+          - generic [ref=e486]: Email
+          - generic [ref=e487]:
+            - link "andikarasyaputra4@gmail.com" [ref=e488] [cursor=pointer]:
+              - /url: mailto:andikarasyaputra4@gmail.com
+            - button "Copy email address" [ref=e492] [cursor=pointer]
+          - paragraph [ref=e498]: Write about collaboration, team projects or professional opportunities.
+        - generic [ref=e499]:
+          - generic [ref=e500]: Elsewhere
+          - list [ref=e501]:
+            - listitem [ref=e502]:
+              - link "GitHub andikatra (opens in a new tab)" [ref=e503] [cursor=pointer]:
+                - /url: https://github.com/andikatra
+                - generic [ref=e506]: GitHub
+                - generic [ref=e507]: andikatra
+                - generic [ref=e512]: (opens in a new tab)
+            - listitem [ref=e513]:
+              - link "LinkedIn Andika Rasya Putra (opens in a new tab)" [ref=e514] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/andika-rasya-putra-474425332/
+                - generic [ref=e517]: LinkedIn
+                - generic [ref=e518]: Andika Rasya Putra
+                - generic [ref=e523]: (opens in a new tab)
+            - listitem [ref=e524]:
+              - link "Instagram @rrsyaptraa (opens in a new tab)" [ref=e525] [cursor=pointer]:
+                - /url: https://www.instagram.com/rrsyaptraa/
+                - generic [ref=e530]: Instagram
+                - generic [ref=e531]: "@rrsyaptraa"
+                - generic [ref=e536]: (opens in a new tab)
+    - generic [ref=e537]:
+      - generic [ref=e538]:
+        - generic [ref=e539]:
+          - generic [ref=e540]: Navigate
+          - list [ref=e541]:
+            - listitem [ref=e542]:
+              - link "Home" [ref=e543] [cursor=pointer]:
+                - /url: "#home"
+            - listitem [ref=e544]:
+              - link "About" [ref=e545] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=e546]:
+              - link "Projects" [ref=e547] [cursor=pointer]:
+                - /url: "#projects"
+            - listitem [ref=e548]:
+              - link "Skills" [ref=e549] [cursor=pointer]:
+                - /url: "#skills"
+            - listitem [ref=e550]:
+              - link "Experience" [ref=e551] [cursor=pointer]:
+                - /url: "#experience"
+            - listitem [ref=e552]:
+              - link "Contact" [ref=e553] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=e554]:
+          - generic [ref=e555]: Social
+          - list [ref=e556]:
+            - listitem [ref=e557]:
+              - link "GitHub (opens in a new tab)" [ref=e558] [cursor=pointer]:
+                - /url: https://github.com/andikatra
+                - text: GitHub
+                - generic [ref=e559]: (opens in a new tab)
+            - listitem [ref=e560]:
+              - link "LinkedIn (opens in a new tab)" [ref=e561] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/andika-rasya-putra-474425332/
+                - text: LinkedIn
+                - generic [ref=e562]: (opens in a new tab)
+            - listitem [ref=e563]:
+              - link "Instagram (opens in a new tab)" [ref=e564] [cursor=pointer]:
+                - /url: https://www.instagram.com/rrsyaptraa/
+                - text: Instagram
+                - generic [ref=e565]: (opens in a new tab)
+        - generic [ref=e566]:
+          - generic [ref=e567]: Contact
+          - list [ref=e568]:
+            - listitem [ref=e569]:
+              - link "Email" [ref=e570] [cursor=pointer]:
+                - /url: mailto:andikarasyaputra4@gmail.com
+        - link "Back to top" [ref=e571] [cursor=pointer]:
+          - /url: "#home"
+      - paragraph [ref=e574]:
+        - generic [aria-hidden] [ref=e575]: A
+        - generic [aria-hidden] [ref=e576]: "n"
+        - generic [aria-hidden] [ref=e577]: d
+        - generic [aria-hidden] [ref=e578]: i
+        - generic [aria-hidden] [ref=e579]: k
+        - generic [aria-hidden] [ref=e580]: a
+        - generic [aria-hidden] [ref=e582]: R
+        - generic [aria-hidden] [ref=e583]: a
+        - generic [aria-hidden] [ref=e584]: s
+        - generic [aria-hidden] [ref=e585]: "y"
+        - generic [aria-hidden] [ref=e586]: a
+        - generic [aria-hidden] [ref=e588]: P
+        - generic [aria-hidden] [ref=e589]: u
+        - generic [aria-hidden] [ref=e590]: t
+        - generic [aria-hidden] [ref=e591]: r
+        - generic [aria-hidden] [ref=e592]: a
+      - generic [ref=e593]:
+        - generic [ref=e594]: © 2026 Andika Rasya Putra
+        - generic [ref=e595]: Designed & built with React, GSAP & Framer Motion

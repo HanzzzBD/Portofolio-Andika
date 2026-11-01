@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andika Rasya Putra — Web Developer</title>
+    <meta name="description" content="Portfolio of Andika Rasya Putra, a web developer and software engineering (RPL) student at SMK Negeri 4 Bandung. Two-time Juara 3 in Web Development." />
+    <meta name="author" content="Andika Rasya Putra" />
+    <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f2f1ee" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Andika Rasya Putra" />
+    <meta property="og:title" content="Andika Rasya Putra — Web Developer" />
+    <meta property="og:description" content="Web developer and RPL student at SMK Negeri 4 Bandung. Projects, competitions and certificates." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="profile:first_name" content="Andika" />
+    <meta property="profile:last_name" content="Rasya Putra" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Andika Rasya Putra — Web Developer" />
+    <meta name="twitter:description" content="Web developer and RPL student at SMK Negeri 4 Bandung." />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Andika Rasya Putra",
+        "jobTitle": "Web Developer",
+        "email": "mailto:andikarasyaputra4@gmail.com",
+        "affiliation": { "@type": "EducationalOrganization", "name": "SMK Negeri 4 Bandung" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Bandung", "addressRegion": "Jawa Barat", "addressCountry": "ID" },
+        "sameAs": [
+          "https://github.com/andikatra",
+          "https://www.linkedin.com/in/andika-rasya-putra-474425332/",
+          "https://www.instagram.com/rrsyaptraa/"
+        ]
+      }
+    </script>
+
+    <!-- Theme before first paint: stored choice, else system preference. -->
+    <script>
+      (function () {
+        var t = null
+        try { t = localStorage.getItem('theme') } catch (e) {}
+        if (t !== 'light' && t !== 'dark') {
+          t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        }
+        document.documentElement.setAttribute('data-theme', t)
+      })()
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@100..600&display=swap"
+    />
+    <link rel="preload" as="image" href="/images/portrait-727.webp" imagesrcset="/images/portrait-480.webp 480w, /images/portrait-727.webp 727w" imagesizes="(min-width: 1024px) 30vw, 70vw" fetchpriority="high" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding:2rem;font-family:sans-serif">Andika Rasya Putra — Web Developer, SMK Negeri 4 Bandung. Contact: andikarasyaputra4@gmail.com · github.com/andikatra</p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
